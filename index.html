@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailblock</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" media="only screen and (max-width:1024px)" href="style.css">
+    <style>
+        .im img {
+            height: 60px;
+            opacity: 80%;
+        }
+        
+        nav a {
+            display: block;
+            background-color: rgb(40 66 88);
+            padding: 1px 7px;
+            border-radius: 10px;
+            color: white
+        }
+        
+        nav a:hover {
+            display: block;
+            background-color: rgb(40 66 88);
+            padding: 1px 7px;
+            border-radius: 10px;
+            color: rgb(29, 228, 79)
+        }
+        
+        .navbar {
+            background-color: #b5cff6;
+        }
+        
+        .btn {
+            border-radius: 10px;
+        }
+        
+        .btn:hover {
+            background-color: rgb(19, 41, 61);
+            border-radius: 10px;
+            color: white;
+        }
+        /* content section   */
+        
+        .hk {
+            text-align: center;
+            font-size: 25px;
+            margin: 5px;
+            background-color: #d9d9d9;
+            border-radius: 100px;
+        }
+        
+        section .ft {
+            font-weight: bold;
+            font-size: 18px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        section #intro {
+            font-style: oblique;
+            color: rgb(250, 248, 248);
+            font-size: 20px;
+            text-shadow: 0px 0px 0px;
+        }
+        
+        section {
+            background-color: #7b9ccf;
+        }
+        
+        section #js {
+            display: block;
+            height: auto;
+            margin: auto;
+        }
+        
+        section #about {
+            width: 200px;
+            height: 20px;
+            background-color: tomato;
+        }
+        /* footer section */
+        
+        footer #hobby {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .pic {
+            display: flex;
+        }
+        
+        .pic img {
+            height: 70px;
+            margin: 5px 20px;
+        }
+        
+        footer #fg {
+            background-color: #738fb8;
+        }
+        
+        footer #bg {
+            background-color: #546f97;
+        }
+        
+        footer #kb {
+            text-align: center;
+            margin: 11px auto;
+            font-size: 25px;
+            background-color: #d9d9d9;
+            border-radius: 100px;
+        }
+        
+        footer label [input] {
+            width: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="navbar container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+                <a href="file:///C:/Users/uSER/Desktop/tailb.html" class="mr-5 ">Home</a>
+                <a href="#about" class="mr-5">About</a>
+                <a href="https://student-koushikkoner.business.site/#testimonials" target=_blank class="mr-5 ">Details</a>
+                <a href="https://www.google.com/maps/place/KOUSHIK+KONER/@21.1334214,82.778933,5z/data=!4m5!3m4!1s0x0:0x33680867813cc11d!8m2!3d21.1334214!4d82.778933" target="_blank" class="">Feedback</a>
+            </nav>
+            <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+                <span class="im"> <img src="pics/my logo.png"></span>
+                <span class="ml-3 text-xl">Koushik Koner</span>
+            </a>
+            <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+                <a href="mailto:kkoner17@gmail.com"><button class="btn inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none e mt-4 md:mt-0">Email
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </button>
+            </a>
+            </div>
+        </div>
+    </header>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap w-full mb-20">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                    <h1 class="ft mb-2 text-gray-900">"Success Is Not A Destination Success Is A journey"</h1>
+                    <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                </div>
+
+                <p id="intro" class=" lg:w-1/2 w-full leading-relaxed text-gray-500">I followed my heart. ... I believe in myself. ... I belong from a middle class family. ... I treat others the way I want to be treated. ... I understand how precious time is. ... I look for positivity in all things. ... I trust my intuition..
+                </p>
+            </div>
+
+            <h1 class="hk">My Skills</h1>
+            <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=383&q=80/720x400" alt="content">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Illustrator</h2>
+                        <p id="about" class="leading-relaxed text-base">.</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://images.unsplash.com/photo-1597204525747-b020fb62e974?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80/721x401" alt="content">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Photoshop</h2>
+                        <p id="about" class="leading-relaxed text-base">.</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80/722x402" alt="content">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Html</h2>
+                        <p id="about" class="leading-relaxed text-base">.</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80/723x403" alt="content">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Css</h2>
+                        <p id="about" class="leading-relaxed text-base">.</p>
+                    </div>
+                </div>
+                <div id="js" class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://images.unsplash.com/photo-1576836165612-8bc9b07e7778?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80/723x403" alt="content">
+                        <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Jquery</h2>
+                        <p id="about" class="leading-relaxed text-base">.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-gray-600 body-font">
+
+        <h1 id="kb">My Hobbies</h1>
+        <div id="fg">
+            <div class="container px-5 py-24 mx-auto">
+
+                <div id="hobby">
+
+                    <div class="pic">
+                        <img src="pics/travel.png">
+                        <img src="pics/cricket.png">
+                        <img src="pics/movie.png">
+                        <img src="pics/music.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div id="bg" class="border-t border-gray-200">
+            <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
+                <div class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
+                    <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
+                        <label for="footer-field" id="kk" class="leading-7 text-sm text-white">Write Your Review</label>
+                        <input type="text" id="footer-field" name="footer-field" class="w-full bg-white  rounded border border-gray-300 focus:ring-2 focus:bg-transparent focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <a href="https://wilmslowhealthcentre.com/wp-content/uploads/2020/04/thank-you-page-examples.jpg" target="_blank"> <button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-green rounded">Submit</button></a>
+                    <p class="text-white text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center">What do you think about me?
+                        <br class="lg:block hidden">write in this box and submit
+                    </p>
+                </div>
+                <span class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
+              <a href="https://www.facebook.com/koner.koushik.3/"target="_blank" class="text-gray-500">
+                <svg fill="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a href="https://twitter.com/?lang=en" target="_blank" class="ml-3 text-gray-500">
+                <svg fill="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/?hl=en" target="_blank" class="ml-3 text-gray-500">
+                <svg fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a href="https://in.linkedin.com/in/koushik-koner-28561519b"target="_blank" class="ml-3 text-gray-500">
+                <svg fill="white" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+            </div>
+        </div>
+        <div class="bg-black">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-white text-sm text-center sm:text-left">© 2020 Koushik Koner
+                    <a href="https://twitter.com/knyttneve" class="text-white  ml-1" target="_blank" rel="noopener noreferrer">@Copyright</a>
+                </p>
+                <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-white  text-sm">www.koushikkoner.com</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
